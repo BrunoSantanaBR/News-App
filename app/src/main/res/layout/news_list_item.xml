@@ -1,0 +1,69 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:orientation="horizontal"
+    android:paddingEnd="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingStart="10dp">
+
+    <TextView
+        android:id="@+id/sectionName_Text_View"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:fontFamily="sans-serif-medium"
+        android:layout_weight="2"
+        android:gravity="start"
+        android:maxLines="2"
+        android:textColor="@android:color/black"
+        android:textSize="10sp"
+        tools:text="Membership" />
+
+
+    <TextView
+        android:id="@+id/weTitle_Text_View"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_weight="5"
+        android:ellipsize="end"
+        android:maxLines="5"
+        android:textColor="@android:color/black"
+        android:textSize="10sp"
+        tools:text="Brexit department announces concessions over EU withdrawal bill ahead of key debates next week - Politics live" />
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_weight="2"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/date_Text_View"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:textColor="@android:color/black"
+            android:textSize="9sp"
+            tools:text="2018-03-28" />
+
+        <TextView
+            android:id="@+id/time_Text_View"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:textColor="@android:color/black"
+            android:textSize="9sp"
+            tools:text="3:00" />
+
+    </LinearLayout>
+
+</LinearLayout>
