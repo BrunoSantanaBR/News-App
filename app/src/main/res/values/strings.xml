@@ -7,4 +7,106 @@
     <!-- Error message when there is no internet connectivity [CHAR LIMIT=NONE] -->
     <string name="no_internet_connection">No internet connection.</string>
 
+    <string name="settings_menu_item">Settings</string>
+    <string name="settings_title">News Settings</string>
+
+    <string name="settings_date_label">Date</string>
+    <string name="settings_date_key" translatable="false">date</string>
+    <string name="settings_date_default" translatable="false">2018-04-02</string>
+
+    <!-- Strings For Order-By Preference [CHAR LIMIT=30] -->
+    <string name="settings_subject_label">Subject</string>
+    <string name="settings_subject_key" translatable="false">subject</string>
+    <string name="settings_subject_default" translatable="false"></string>
+
+
+    <!-- List of Subjects -->
+    <string name="settings_subject_all_label">All</string>
+    <string name="settings_subject_all_value" translatable="false"></string>
+
+    <string name="settings_subject_news_label">News</string>
+    <string name="settings_subject_news_value" translatable="false">news</string>
+
+    <string name="settings_subject_sports_label">Sports</string>
+    <string name="settings_subject_sports_value" translatable="false">sport</string>
+
+    <string name="settings_subject_games_label">Games</string>
+    <string name="settings_subject_games_value" translatable="false">games</string>
+
+    <string name="settings_subject_business_label">Business</string>
+    <string name="settings_subject_business_value" translatable="false">business</string>
+
+    <string name="settings_subject_life_and_style_label">Life and Style</string>
+    <string name="settings_subject_life_and_style_value" translatable="false">lifeandstyle</string>
+
+    <string name="settings_subject_technology_label">Technology</string>
+    <string name="settings_subject_technology_value" translatable="false">technology</string>
+
+    <string name="settings_subject_music_label">Music</string>
+    <string name="settings_subject_music_value" translatable="false">music</string>
+
+    <string name="settings_subject_opinion_label">Opinion</string>
+    <string name="settings_subject_opinion_value" translatable="false">opinion</string>
+
+    <string name="settings_subject_science_label">Science</string>
+    <string name="settings_subject_science_value" translatable="false">science</string>
+
+    <string name="settings_subject_books_label">Books</string>
+    <string name="settings_subject_books_value" translatable="false">books</string>
+
+    <string name="settings_subject_uk_news_label">UK News</string>
+    <string name="settings_subject_uk_news_value" translatable="false">uk-news</string>
+
+    <string name="settings_subject_football_label">Football</string>
+    <string name="settings_subject_football_value" translatable="false">football</string>
+
+    <string name="settings_subject_education_label">Education</string>
+    <string name="settings_subject_education_value" translatable="false">education</string>
+
+    <string name="settings_subject_us_news_label">US News</string>
+    <string name="settings_subject_us_news_value" translatable="false">us-news</string>
+
+    <string name="settings_subject_politics_label">Politics</string>
+    <string name="settings_subject_politics_value" translatable="false">politics</string>
+
+    <string name="settings_subject_law_label">Law</string>
+    <string name="settings_subject_law_value" translatable="false">law</string>
+
+    <string name="settings_subject_world_label">World News</string>
+    <string name="settings_subject_world_value" translatable="false">world</string>
+
+    <string name="settings_subject_film_label">Film</string>
+    <string name="settings_subject_film_value" translatable="false">film</string>
+
+    <string name="settings_subject_crosswords_label">Crosswords</string>
+    <string name="settings_subject_crosswords_value" translatable="false">crosswords</string>
+
+    <string name="settings_subject_environment_label">Environment</string>
+    <string name="settings_subject_environment_value" translatable="false">environment</string>
+
+    <string name="settings_subject_tv_and_radio_label">TV and Radio</string>
+    <string name="settings_subject_tv_and_radio_value" translatable="false">tv-and-radio</string>
+
+    <string name="settings_subject_stage_label">Stage</string>
+    <string name="settings_subject_stage_value" translatable="false">stage</string>
+
+    <string name="settings_subject_global_development_label">Global Development</string>
+    <string name="settings_subject_global_development_value" translatable="false">global-development</string>
+
+    <string name="settings_subject_cities_label">Cities</string>
+    <string name="settings_subject_cities_value" translatable="false">cities</string>
+
+    <string name="settings_subject_art_and_design_label">Art and Design</string>
+    <string name="settings_subject_art_and_design_value" translatable="false">artanddesign</string>
+
+    <string name="settings_subject_money_label">Money</string>
+    <string name="settings_subject_money_value" translatable="false">money</string>
+
+
+
+
+
+
+
+
 </resources>
