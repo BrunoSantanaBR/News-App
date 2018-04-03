@@ -140,6 +140,7 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
             uriBuilder.appendQueryParameter("page-size", "200");
             uriBuilder.appendQueryParameter("from-date", date);
             uriBuilder.appendQueryParameter("to-date", date);
+            uriBuilder.appendQueryParameter("show-tags", "contributor");
             uriBuilder.appendQueryParameter("api-key", "test");
         }else {
             // Append query parameter and its value.
@@ -147,6 +148,7 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
             uriBuilder.appendQueryParameter("from-date", date);
             uriBuilder.appendQueryParameter("to-date", date);
             uriBuilder.appendQueryParameter("section", subject);
+            uriBuilder.appendQueryParameter("show-tags", "contributor");
             uriBuilder.appendQueryParameter("api-key", "test");
         }
 

@@ -6,26 +6,22 @@ package com.example.android.newsapp;
 
 public class News {
 
-    private String sectionID;
     private String sectionName;
     private String webTitle;
     private String webPublicationDate;
     private String webUrl;
+    private String author;
 
-    public News(String SecID, String secName, String wTitle, String wPublicationDate, String wUrl){
-        sectionID = SecID;
+    public News(String secName, String wTitle, String wPublicationDate, String wUrl, String wAuthor) {
         sectionName = secName;
         webTitle = wTitle;
         webPublicationDate = wPublicationDate;
         webUrl = wUrl;
+        author = wAuthor;
     }
 
     public String getWebPublicationDate() {
         return webPublicationDate;
-    }
-
-    public String getSectionID() {
-        return sectionID;
     }
 
     public String getSectionName() {
@@ -38,6 +34,10 @@ public class News {
 
     public String getWebUrl() {
         return webUrl;
+    }
+
+    public String getAuthor() {
+        return author;
     }
 }
 

@@ -2,9 +2,11 @@ package com.example.android.newsapp;
 
 import android.text.TextUtils;
 import android.util.Log;
+
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
@@ -60,24 +62,32 @@ public final class QueryUtils {
 
             JSONArray jsonArrayResults = newsResponse.getJSONArray("results");
 
+           // JSONObject newsResults = baseJsonResponse.getJSONObject("results");
+
+
             // For each news in the newsArray, create an {@link News} object
             for (int i = 0; i < jsonArrayResults.length(); i++) {
 
                 // Get a single news at position i within the list of news
                 JSONObject currentNews = jsonArrayResults.getJSONObject(i);
 
-                String sectionId = currentNews.getString("sectionId");
                 String sectionName = currentNews.getString("sectionName");
                 String webTitle = currentNews.getString("webTitle");
                 String webPublicationDate = currentNews.getString("webPublicationDate");
                 String webUrl = currentNews.getString("webUrl");
+                JSONArray jsonArrayTags = currentNews.getJSONArray("tags");
 
-                // Create a new {@link news} object with the SectionId, SectionName, WebTitle, WebPublicationDate
-                // and webUrl from the JSON response.
-                News news = new News(sectionId, sectionName, webTitle, webPublicationDate , webUrl);
+                for (int j = 0; j < jsonArrayTags.length(); j++) {
+                    JSONObject currentTags = jsonArrayTags.getJSONObject(j);
+                    String author = currentTags.getString("webTitle");
 
-                // Add the new {@link news} to the list of News.
-                newsList.add(news);
+                    // Create a new {@link news} object with the SectionId, SectionName, WebTitle, WebPublicationDate
+                    // and webUrl from the JSON response.
+                    News news = new News(sectionName, webTitle, webPublicationDate, webUrl, author);
+
+                    // Add the new {@link news} to the list of News.
+                    newsList.add(news);
+                }
             }
 
         } catch (JSONException e) {
